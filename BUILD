@@ -4,7 +4,6 @@ py_binary(
     name = "main",
     srcs = ["main.py"],
     deps = [
-        requirement('argparse'),
         requirement('botocore'),
         requirement('urllib3'),
         requirement('six'),
